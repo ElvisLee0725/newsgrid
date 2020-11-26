@@ -3,9 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Newsgrid | Latest News</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Staatliches&display=swap" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  
+  <nav id="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="Newsgrid" class="logo">
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="article">
+    <div class="container">
+      <div class="page-container">
+        <article class="card">
+          <img src="img/articles/ent1.jpg" alt="">
+          <h1 class="l-heading">About Our Organization</h1>
+          <div class="meta">
+            <small>
+              <i class="fas fa-user"></i> Written By John Doe January 20, 2020
+            </small>
+            <div class="category category-ent">Entertainment</div>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci voluptatum vel suscipit autem iure vitae nemo omnis harum quidem atque nobis expedita facilis optio, unde eaque dolore corrupti repellat, consequuntur in? Dolores numquam tempore rem. Doloribus, asperiores culpa exercitationem hic odio sequi iusto eos sit eveniet minima. Facere, neque.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic eligendi voluptatibus reprehenderit, iure nihil totam fugiat unde labore! Sapiente rerum placeat laboriosam, accusamus voluptate architecto quo. Ipsam itaque esse unde sapiente rem tempora aspernatur ut necessitatibus ipsa quaerat temporibus odio similique harum, adipisci officia quos in excepturi, nobis, distinctio beatae nam error. Alias mollitia facilis doloremque velit quaerat nihil, doloribus inventore dolor. Minus similique tempore recusandae veritatis nulla aperiam, aut consequuntur. Iusto aut optio nulla reiciendis vero, praesentium rem porro eligendi earum accusantium. Alias, dignissimos. Ea in facilis consectetur qui ullam consequatur vero debitis suscipit labore quibusdam illum, officiis iure?</p>
+        </article>
+
+        <aside id="categories" class="card">
+          <h2>Categories</h2>
+          <ul class="list">
+            <li><a href="#"><i class="fas fa-chevron-right"></i>Sports</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i>Entertainment</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i>Technology</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i>Fashion</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i>Shopping</a></li>
+          </ul>
+        </aside>
+
+        <aside class="card bg-secondary">
+          <h2>Join Our Club</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, inventore.</p>
+          <a href="#" class="btn btn-dark btn-block">Join Now</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo_light.png" alt="NewsGrid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis voluptates illo delectus sint corporis minima vero, hic est esse!</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, unde.</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, nisi!</p>
+        <a href="#" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>Copyright &copy; 2020, All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
